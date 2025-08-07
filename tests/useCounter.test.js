@@ -1,5 +1,5 @@
 import { renderHook, act } from '@testing-library/react-hooks';
-import useCounter from './useCounter';
+import useCounter from '../src/hooks/features/homepage/useCounter';
 
 describe('useCounter', () => {
   it('should initialize with default value', () => {
